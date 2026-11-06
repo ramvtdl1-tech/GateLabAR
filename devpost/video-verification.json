@@ -1,0 +1,22 @@
+{
+  "file": "dist/GateLabAR-demo.mp4",
+  "duration_seconds": 85.89897959183673,
+  "bytes": 44967009,
+  "sha256": "d227e7c8a7c5d389f6a06d00d281402a9afcfe45d8e151dc31a6177796629228",
+  "capture": "Native Lens Studio Preview Record Video",
+  "native_scenarios_recorded": [
+    "gatelab-truth-table",
+    "gatelab-challenge",
+    "gatelab-recovery"
+  ],
+  "all_scenarios_passed": true,
+  "visual_frames_verified": true,
+  "public_youtube_verified": false,
+  "visual_frame_seconds": [
+    20,
+    40,
+    78
+  ],
+  "note": "Actual native Preview footage; LEAF status labels are visible. No narration is claimed.",
+  "upload_handoff": "User explicitly chose to upload to YouTube themselves."
+}

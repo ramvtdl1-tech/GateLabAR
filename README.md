@@ -58,6 +58,6 @@ Real-device hand tracking, comfort and additive-display readability are untested
 An optional LEAF avatar idle-animation download timed out; the IK scenario passed,
 and normal startup had no errors. See the report for exact scope.
 
-Public GitHub/GitLab/Bitbucket source, a public YouTube demo under three minutes,
-and final Devpost submission remain separate actions. No public URLs or receipt
-are claimed. [Demo script](devpost/demo-script.md) · [Checklist](devpost/submission-checklist.md).
+Public source: https://github.com/ramvtdl1-tech/GateLabAR (anonymous Git access verified).
+A public YouTube demo and final Devpost submission remain pending; no submission receipt is claimed.
+[Demo script](devpost/demo-script.md) · [Checklist](devpost/submission-checklist.md).

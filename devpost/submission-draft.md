@@ -39,3 +39,8 @@ Real-device hand tracking, comfort over time and additive-display readability re
 - Submission commit and Devpost receipt: pending.
 
 Reconcile final URLs and footage with the release before submitting. Do not present the local release as a published Lens or a completed hackathon entry.
+
+
+Public source: https://github.com/ramvtdl1-tech/GateLabAR
+Published source commit: faee45ab194bde9d8bd1dab9b687f9e79adce8c9
+Public YouTube URL: pending authentic full-length demo capture and upload.

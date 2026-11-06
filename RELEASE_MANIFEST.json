@@ -274,7 +274,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "9d89d20e0718b797a23e1975d27c041191b3c6e84da19c54431a7f1a1a65fd8a"
+      "sha256": "6dcf3b91d8415ada4875e722a360ee1911921c3059762480684c5f9c9cb789e7"
     },
     {
       "path": "SpecsBaseTemplate.esproj",
@@ -290,7 +290,7 @@
     },
     {
       "path": "devpost/NEXT_SESSION.md",
-      "sha256": "ef1d8f0b98056a4c0c26ef0ba601e2bce8e87005dfc4ce27809b2d493b14a78f"
+      "sha256": "d4d64ba41bfc50e9167a22e84642b1b2f5f12171b12afdb7b6f157f0f09178bc"
     },
     {
       "path": "devpost/archive-verification.json",
@@ -430,15 +430,19 @@
     },
     {
       "path": "devpost/submission-checklist.md",
-      "sha256": "5ee412508a76a74ccd3179c30b7f9b324e5f607f747d5d23372ebf273174786c"
+      "sha256": "5719cdfde427389cd1b622a8c1bb0c60cf37e324d6a1b36c394d7c9eb272f795"
     },
     {
       "path": "devpost/submission-draft.md",
-      "sha256": "905ad9fcd821cc2ba19c87139d8cdcb475231c2abc7f2f869dc5e670a434b509"
+      "sha256": "ddece46ca4238c7813461981e17aab376eed582e5af846c4b262bf3dafa64c2b"
     },
     {
       "path": "devpost/verification.json",
-      "sha256": "94b597ac2f107abdc536cb414296c6adb360639765ff4203a59f3fede6cd7b7a"
+      "sha256": "c6bf94fd1698bc1b4f7899fb4fbb5ab3c731b0ab3e2325f8d664827ab329b76b"
+    },
+    {
+      "path": "devpost/video-verification.json",
+      "sha256": "56dc3093311002828462a651eda88aa93df196e445cfdaf8ac539e0a25e5d07f"
     },
     {
       "path": "logic/README.md",
