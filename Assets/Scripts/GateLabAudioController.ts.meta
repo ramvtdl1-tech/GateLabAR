@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/52eac772-1631-4859-af84-2bdebbe08c78>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f498b8c8-b948-4438-a26b-b64b5ad97239
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f498b8c8-b948-4438-a26b-b64b5ad97239
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 737623d9-8df4-46c3-a256-adb5d6faa79c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/737623d9-8df4-46c3-a256-adb5d6faa79c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e4f2da68-6ffa-418c-bbfc-fa73de6bd79f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    volume: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - volume: 0.220000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"GateLab • subtle local feedback"}'
+    - '// @input float volume = 0.22 {"hint":"One-shot cue volume. No background music.", "widget":"slider", "min":0, "max":0.6, "step":0.05}'

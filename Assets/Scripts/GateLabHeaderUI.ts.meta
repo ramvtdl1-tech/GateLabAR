@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/0af1bd8d-7ddd-4f0a-8bea-66d6e3cf30bf>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 790f2a60-4445-4ee9-956c-c8f2c5e118f4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 790f2a60-4445-4ee9-956c-c8f2c5e118f4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ec0ce68e-d667-4054-a37e-767338966e4d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ec0ce68e-d667-4054-a37e-767338966e4d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: afad0071-ea71-45c4-b43f-a7d64076f9e8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    textScale: false
+    title: false
+    widthCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - title: GateLab AR
+      widthCm: !<float> 44.000000
+      textScale: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"GateLab • title and mode"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input string title = "GateLab AR" {"hint":"Title on the panel."}'
+    - '// @input float widthCm = 44 {"hint":"Panel width in centimeters.", "widget":"slider", "min":36, "max":46, "step":1}'
+    - '// @input float textScale = 1 {"hint":"Typography scale.", "widget":"slider", "min":1, "max":1.3, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'

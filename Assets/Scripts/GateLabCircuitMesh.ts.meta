@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/73a69f18-3f48-4d31-b0ee-e38764f806c3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 82b41a92-0e9e-4c29-b038-a77f6912b6ee
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 82b41a92-0e9e-4c29-b038-a77f6912b6ee
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4ef6f3ec-b0a2-4b0c-9857-b60389174cfd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4ef6f3ec-b0a2-4b0c-9857-b60389174cfd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 1b6ab28d-bba1-447d-9184-77d1c53f652b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    activeColor: false
+    gate: false
+    inactiveColor: false
+    inputA: false
+    inputB: false
+    material: false
+    output: false
+    pulseSpeed: false
+    wireRadius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      inputA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      inputB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      output: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pulseSpeed: 0.650000
+      wireRadius: 0.260000
+      activeColor: !<Vec4> {x: 0.250000, y: 0.950000, z: 1.000000, w: 1.000000}
+      inactiveColor: !<Vec4> {x: 0.650000, y: 0.560000, z: 0.950000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"GateLab • dimensional signal paths"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material material {"hint":"Imported vertex-color material for the procedural paths."}'
+    - '// @input SceneObject inputA {"hint":"Authored A node anchor."}'
+    - '// @input SceneObject inputB {"hint":"Authored B node anchor."}'
+    - '// @input SceneObject gate {"hint":"Authored gate anchor."}'
+    - '// @input SceneObject output {"hint":"Authored output anchor."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float pulseSpeed = 0.65 {"hint":"Signal bead speed in path traversals per second.", "widget":"slider", "min":0.2, "max":2, "step":0.1}'
+    - '// @input float wireRadius = 0.26 {"hint":"Tube radius in centimeters.", "widget":"slider", "min":0.15, "max":0.5, "step":0.05}'
+    - '// @input vec4 activeColor = "{0.25,0.95,1,1}" {"hint":"Active signal color.", "widget":"color"}'
+    - '// @input vec4 inactiveColor = "{0.65,0.56,0.95,1}" {"hint":"Inactive signal color.", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

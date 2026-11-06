@@ -1,0 +1,78 @@
+- !<AssetImportMetadata/3f043d6d-f6ff-45dd-831a-0467c310a1ff>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 969bc2e3-b8b6-40f5-9613-f76376c601e7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 969bc2e3-b8b6-40f5-9613-f76376c601e7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2cacdd60-781b-4058-9f96-519067648f7a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2cacdd60-781b-4058-9f96-519067648f7a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e49582a7-e195-4dee-8262-cb5bbd3e8eca
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audio: false
+    circuitMesh: false
+    circuitRoot: false
+    debugColliders: false
+    gateNode: false
+    header: false
+    journey: false
+    nodeA: false
+    nodeB: false
+    outputNode: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - header: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      journey: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      nodeA: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      nodeB: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      gateNode: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      outputNode: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      circuitRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      circuitMesh: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      audio: !<MappingBased.AssignableType_8> 00000000-0000-0000-0000-000000000000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"GateLab AR • session and learning journey"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 header {"hint":"Passive title/mode view."}'
+    - '// @input AssignableType_2 journey {"hint":"Passive contextual actions view."}'
+    - '// @input AssignableType_3 nodeA {"hint":"A node view."}'
+    - '// @input AssignableType_4 nodeB {"hint":"B node view."}'
+    - '// @input AssignableType_5 gateNode {"hint":"Gate selector view."}'
+    - '// @input AssignableType_6 outputNode {"hint":"Output readout view."}'
+    - '// @input SceneObject circuitRoot {"hint":"Authored circuit root; hides circuit on Welcome."}'
+    - '// @input AssignableType_7 circuitMesh {"hint":"Procedural paths presenter."}'
+    - '// @input AssignableType_8 audio {"hint":"Local one-shot sound controller."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool debugColliders {"hint":"Draw native collider wireframes for inspecting the UIKit hit targets."}'
+    - '// @ui {"widget":"group_end"}'

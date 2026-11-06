@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-11-06T21:57:40.282Z",
+  "scope": "Bounded packaged archive smoke test in native Lens Studio Preview. No source edits, package installs, setup, publishing or LEAF scenario reruns.",
+  "project": "SpecsBaseTemplate.esproj",
+  "tested_archive_sha256": "bd7ff771ab4c83bd54b093b239d21d99cd20c92fc9399eae4921a360e2ec6584",
+  "tested_archive": {
+    "path": "dist/gatelab-ar-source-release.zip",
+    "bytes": 16476532,
+    "extracted_project": "<EXTRACTED_PROJECT>/SpecsBaseTemplate.esproj",
+    "archived_files_checked": 114,
+    "extracted_file_mismatches": [],
+    "gate_lab_source_hashes_checked": 14,
+    "source_hash_reference": "devpost/build-verification.json",
+    "source_hash_mismatches": []
+  },
+  "archive_open_passed": true,
+  "native_compilation_passed": true,
+  "pinch_smoke_passed": true,
+  "original_project_restored": true,
+  "evidence": {
+    "open_method": "Native ExecuteEditorCode; model.openProject(new Editor.Path(...)); current model.project.projectFile confirmed. API verified against Support/editor.d.ts.",
+    "archive_project": "<EXTRACTED_PROJECT>/SpecsBaseTemplate.esproj",
+    "compilation": {
+      "logFile": "<HOME>/Library/Preferences/Snap/Lens Studio/logs/LensStudioLog-2026-11-07-02-13-05-684-41986.txt",
+      "status": "succeeded"
+    },
+    "startup": {
+      "status": "success",
+      "logFile": "<HOME>/Library/Preferences/Snap/Lens Studio/logs/LensStudioLog-2026-11-07-02-13-05-684-41986.txt",
+      "byteOffset": 5688919,
+      "errors": [],
+      "prints": [
+        "I 03:25:21.048 [Preview 4] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+        "I 03:25:21.856 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.157s]Register scenario: gatelab-truth-table",
+        "I 03:25:21.856 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.157s]Register scenario: gatelab-challenge",
+        "I 03:25:21.856 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.157s]Register scenario: gatelab-recovery",
+        "I 03:25:21.856 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.157s]Register scenario: gatelab-ik-reach",
+        "I 03:25:23.609 [Preview 4] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+        "I 03:25:24.246 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.098s]Register scenario: gatelab-truth-table",
+        "I 03:25:24.246 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.099s]Register scenario: gatelab-challenge",
+        "I 03:25:24.246 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.099s]Register scenario: gatelab-recovery",
+        "I 03:25:24.246 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.099s]Register scenario: gatelab-ik-reach",
+        "I 03:25:24.778 [Preview 4] [Assets/Scripts/GateLabMain.ts:36] [GateLab] Ready: interactive"
+      ]
+    },
+    "preview_name": "Preview 4",
+    "pinches": [
+      {
+        "control": "Start",
+        "action": "Pinch",
+        "commandId": "agent-cmd-270-1794002142784",
+        "handState": {
+          "left": {
+            "status": "free"
+          },
+          "right": {
+            "status": "free"
+          }
+        },
+        "response": {
+          "commandId": "agent-cmd-270-1794002142784",
+          "handState": {
+            "left": {
+              "status": "free"
+            },
+            "right": {
+              "status": "free"
+            }
+          },
+          "resolvedUniqueId": "3965146014742048058:2586605206707246848",
+          "type": "CommandSuccess"
+        },
+        "success": true
+      },
+      {
+        "control": "InputA",
+        "action": "Pinch",
+        "commandId": "agent-cmd-275-1794002157054",
+        "handState": {
+          "left": {
+            "status": "free"
+          },
+          "right": {
+            "status": "free"
+          }
+        },
+        "response": {
+          "commandId": "agent-cmd-275-1794002157054",
+          "handState": {
+            "left": {
+              "status": "free"
+            },
+            "right": {
+              "status": "free"
+            }
+          },
+          "resolvedUniqueId": "3965146014742048058:2586605206707245109",
+          "type": "CommandSuccess"
+        },
+        "success": true
+      }
+    ],
+    "runtime_state_evidence": [
+      {
+        "line": "I 03:25:44.494 [Preview 4] [Assets/Scripts/GateLabMain.ts:47] [GateLab state] {\"phase\":\"explore\",\"circuit\":{\"gate\":\"AND\",\"a\":0,\"b\":0,\"output\":0,\"rule\":\"AND outputs 1 only when both inputs are 1.\"},\"questionNumber\":null,\"totalQuestions\":3,\"score\":0,\"feedback\":null}",
+        "snapshot": {
+          "phase": "explore",
+          "circuit": {
+            "gate": "AND",
+            "a": 0,
+            "b": 0,
+            "output": 0,
+            "rule": "AND outputs 1 only when both inputs are 1."
+          },
+          "questionNumber": null,
+          "totalQuestions": 3,
+          "score": 0,
+          "feedback": null
+        }
+      },
+      {
+        "line": "I 03:25:58.806 [Preview 4] [Assets/Scripts/GateLabMain.ts:47] [GateLab state] {\"phase\":\"explore\",\"circuit\":{\"gate\":\"AND\",\"a\":1,\"b\":0,\"output\":0,\"rule\":\"AND outputs 1 only when both inputs are 1.\"},\"questionNumber\":null,\"totalQuestions\":3,\"score\":0,\"feedback\":null}",
+        "snapshot": {
+          "phase": "explore",
+          "circuit": {
+            "gate": "AND",
+            "a": 1,
+            "b": 0,
+            "output": 0,
+            "rule": "AND outputs 1 only when both inputs are 1."
+          },
+          "questionNumber": null,
+          "totalQuestions": 3,
+          "score": 0,
+          "feedback": null
+        }
+      }
+    ],
+    "snapshot": {
+      "phase": "explore",
+      "circuit": {
+        "gate": "AND",
+        "a": 1,
+        "b": 0,
+        "output": 0,
+        "rule": "AND outputs 1 only when both inputs are 1."
+      },
+      "questionNumber": null,
+      "totalQuestions": 3,
+      "score": 0,
+      "feedback": null
+    },
+    "expected": {
+      "phase": "explore",
+      "gate": "AND",
+      "a": 1,
+      "b": 0,
+      "output": 0
+    },
+    "live_text": [
+      {
+        "name": "InputAValue",
+        "text": "1"
+      },
+      {
+        "name": "InputBValue",
+        "text": "0"
+      },
+      {
+        "name": "GateSelectorValue",
+        "text": "AND"
+      },
+      {
+        "name": "OutputValue",
+        "text": "0"
+      },
+      {
+        "name": "GateLabMode",
+        "text": "EXPLORE · INPUT → GATE → OUTPUT"
+      }
+    ],
+    "fresh_actual_preview_capture": {
+      "path": "devpost/screenshots/25-archive-smoke-explore.png",
+      "method": "Native PreviewPanelTool screenshot; visually inspected with view_image.",
+      "shows": "Explore AND; A=1, B=0, Y=0"
+    },
+    "restoration": {
+      "project": "<PROJECT_ROOT>/SpecsBaseTemplate.esproj",
+      "compilation": {
+        "logFile": "<HOME>/Library/Preferences/Snap/Lens Studio/logs/LensStudioLog-2026-11-07-02-13-05-684-41986.txt",
+        "status": "succeeded"
+      },
+      "startup": {
+        "status": "success",
+        "logFile": "<HOME>/Library/Preferences/Snap/Lens Studio/logs/LensStudioLog-2026-11-07-02-13-05-684-41986.txt",
+        "byteOffset": 6188952,
+        "errors": [],
+        "prints": [
+          "I 03:26:57.026 [Preview 4] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+          "I 03:26:57.881 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.113s]Register scenario: gatelab-truth-table",
+          "I 03:26:57.881 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.113s]Register scenario: gatelab-challenge",
+          "I 03:26:57.882 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.114s]Register scenario: gatelab-recovery",
+          "I 03:26:57.882 [Preview 4] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.114s]Register scenario: gatelab-ik-reach",
+          "I 03:26:58.223 [Preview 4] [Assets/Scripts/GateLabMain.ts:36] [GateLab] Ready: interactive"
+        ]
+      },
+      "welcome_text": [
+        {
+          "name": "GateLabTitle",
+          "text": "GateLab AR"
+        },
+        {
+          "name": "GateLabMode",
+          "text": "LOGIC YOU CAN REACH"
+        },
+        {
+          "name": "GateLabPrompt",
+          "text": "Make signals make sense"
+        },
+        {
+          "name": "GateLabExplanation",
+          "text": "Pinch an input. Follow its signal through a gate.\nThen predict the output in three quick questions."
+        },
+        {
+          "name": "StartLabel",
+          "text": "Start"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "First archive log refresh timed out while Lens Studio imported/compressed assets. Subsequent native tail logs and live runtime queries confirmed startup and no runtime warnings/errors; no source/package fixes were required.",
+    "Preview SIK interaction simulation only; no real Specs hardware hand tracking, additive-display readability or comfort validation.",
+    "Existing four native LEAF scenarios were not rerun; all 14 extracted GateLab script hashes match their previously passed native evidence.",
+    "Release archive was not rebuilt or changed; the fresh screenshot and this verification record are post-archive evidence in the original project."
+  ]
+}

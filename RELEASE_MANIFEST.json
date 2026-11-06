@@ -1,0 +1,468 @@
+{
+  "kind": "public-source-export",
+  "native_source_unchanged_from_verified_release": true,
+  "verified_release_sha256": "bd7ff771ab4c83bd54b093b239d21d99cd20c92fc9399eae4921a360e2ec6584",
+  "privacy_note": "Local workstation paths redacted in documentation; native code and bundled packages unchanged.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "0a1f93041c5305125d76ffded7fc6e583147bb0b9f995398e458682fe279e662"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3e5fc0c1788eedeb0ca1777d23331c009e1865a0d383e7e9223c978e0bb3d01b"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "81e3eb7186497252cbbd0fd009abb8d572ee1cf44bdfeb56eb8583049216badd"
+    },
+    {
+      "path": "Assets/Evidence/01-welcome.png",
+      "sha256": "b701b40f7d184657944832628d36747b865e99c30698ef2540d728999b134967"
+    },
+    {
+      "path": "Assets/Evidence/01-welcome.png.meta",
+      "sha256": "83cc4ccb14eeb1f89e9c9367200c8fb1a68e915073dc25a6b285f4c65a34b2ce"
+    },
+    {
+      "path": "Assets/GeneratedSFX/GateClick.wav",
+      "sha256": "e14f82e7b83f0facf72c9065872f8a4a2987ef83d391ac9deaf9f7b9c4f86078"
+    },
+    {
+      "path": "Assets/GeneratedSFX/GateClick.wav.meta",
+      "sha256": "75a2afcd454e27a4f44d102ef342144369f0039fa3fff80329622c0be6891764"
+    },
+    {
+      "path": "Assets/GeneratedSFX/GateFinish.wav",
+      "sha256": "37bd4ecf31309985dc50a73acc1ce7ccec98ef7bfca445d13270f3f573995746"
+    },
+    {
+      "path": "Assets/GeneratedSFX/GateFinish.wav.meta",
+      "sha256": "28c7cb9f1a81bb512b5fc60507b099a5997c6ac6f4a12549fa5af174e526eba4"
+    },
+    {
+      "path": "Assets/GeneratedSFX/GateReveal.wav",
+      "sha256": "6fde37ab07c46365fcbcdf1945b19fb30e2da4346bd71c0bd693ce537174348f"
+    },
+    {
+      "path": "Assets/GeneratedSFX/GateReveal.wav.meta",
+      "sha256": "0d25d0269f206b4b1362b18ac099cf93350252b80658f729e740fb43ef90d960"
+    },
+    {
+      "path": "Assets/Render/Device Camera Texture.deviceCameraTexture",
+      "sha256": "19719f617e73e571f75a31159081bd60cee37a05acb2c4a3189a72b1a4ff3166"
+    },
+    {
+      "path": "Assets/Render/Device Camera Texture.deviceCameraTexture.meta",
+      "sha256": "1fca77753c5c9b587234e4047dd9cdb797d1238503a89db1e5d496e6cf70a0e7"
+    },
+    {
+      "path": "Assets/Render/Echopark.hdr",
+      "sha256": "7f718a37e096b94af7cd15a6c6142e7ec0386887b756b9cdced63f1fc71b38d4"
+    },
+    {
+      "path": "Assets/Render/Echopark.hdr.meta",
+      "sha256": "7b78806d273d4da630684ea46014276f27fcd0deed72989d890f8838c2e3b42c"
+    },
+    {
+      "path": "Assets/Render/Render Target.renderTarget",
+      "sha256": "cb689fdf5c70267d37c154451418f914d54218d2737fccef15538e812cf1cab7"
+    },
+    {
+      "path": "Assets/Render/Render Target.renderTarget.meta",
+      "sha256": "ca4985ece8b0f133ce82a20683bda1b2a06485c79fc40a9e6a4c69724e5ec8c0"
+    },
+    {
+      "path": "Assets/Scene.scene",
+      "sha256": "a8f9887db70a1c7e292ab84b1eaeef78abb13bf0a0d74743dce2495d3c5daf28"
+    },
+    {
+      "path": "Assets/Scene.scene.meta",
+      "sha256": "9b68c8f9352811334c5d16ac6b801533596dc5d0d5d1c0ac5ab92fa928ebde0c"
+    },
+    {
+      "path": "Assets/Scripts/GateLabAudioController.ts",
+      "sha256": "552dc62338bb407e58d14fa26f2d7f7bc1c1ee4773b3c0e6bafe7625ea24e626"
+    },
+    {
+      "path": "Assets/Scripts/GateLabAudioController.ts.meta",
+      "sha256": "ede2699a4d67844f0bc1be0d1ddc2877cea4c02aa4724f0ca510cef1e09575dc"
+    },
+    {
+      "path": "Assets/Scripts/GateLabChallengeScenario.ts",
+      "sha256": "78c46ebe9ad8e096f5d925399e7d0b7e4509d63294e9169e0801391b2ca6f9b1"
+    },
+    {
+      "path": "Assets/Scripts/GateLabChallengeScenario.ts.meta",
+      "sha256": "62cf511c07e1691d7b05eca84349eaf446b0c3cfcdc931fad2c3ecb58af4548b"
+    },
+    {
+      "path": "Assets/Scripts/GateLabCircuitMesh.ts",
+      "sha256": "196d2e87c64623b60efa5e04d5e14838dfa710ee0159b1c4e482cc684180abe8"
+    },
+    {
+      "path": "Assets/Scripts/GateLabCircuitMesh.ts.meta",
+      "sha256": "7edd662804a95ce3ce4706329b0ade82fffd0c22f25779912504f9586c912bda"
+    },
+    {
+      "path": "Assets/Scripts/GateLabHeaderUI.ts",
+      "sha256": "07b948778c2633e65dfc8a2bd88354e97d465d8317d8437f5b2e8f85100d9f18"
+    },
+    {
+      "path": "Assets/Scripts/GateLabHeaderUI.ts.meta",
+      "sha256": "dcc724c8467a6fc4864a32e7946e311a48373cf5b8745914ea8e5cc9b9ee6473"
+    },
+    {
+      "path": "Assets/Scripts/GateLabIKScenario.ts",
+      "sha256": "bbcebc6d7f6ed5db83a9baaf22959ca648ac2fa2c926adf0638d44a7af6c5760"
+    },
+    {
+      "path": "Assets/Scripts/GateLabIKScenario.ts.meta",
+      "sha256": "e4811ee74248c0f269fe2252849f661861ca3acf21032af9ea345961fed17eef"
+    },
+    {
+      "path": "Assets/Scripts/GateLabJourneyUI.ts",
+      "sha256": "3d6c63ef5459e9a03b05d099cedfa5e5b9fc3ba90273dd060dbad28c13b42303"
+    },
+    {
+      "path": "Assets/Scripts/GateLabJourneyUI.ts.meta",
+      "sha256": "dfa27f1091843afd52725bd1782f73bd467ac2d75bd7483bec4ba3feed7d84bf"
+    },
+    {
+      "path": "Assets/Scripts/GateLabLeafIndex.ts",
+      "sha256": "191dd509baa1a0f7c52a1abf93c4fa5afbbb2ccd078d1d16593f55720a7d7bbd"
+    },
+    {
+      "path": "Assets/Scripts/GateLabLeafIndex.ts.meta",
+      "sha256": "c1887ef11fd8bdc0cae4f2c62cda34a75ce3f8b8bc6ab4f453a41bbc207fed40"
+    },
+    {
+      "path": "Assets/Scripts/GateLabLeafSupport.ts",
+      "sha256": "41da2af5a3082aa3166bec188e45c3694b162775ae6802dc2f7209b2e6a992cc"
+    },
+    {
+      "path": "Assets/Scripts/GateLabLeafSupport.ts.meta",
+      "sha256": "bfa19733dd707857460e3b712a2b7bfc692ae8e5e932d91d227948e31eb34666"
+    },
+    {
+      "path": "Assets/Scripts/GateLabMain.ts",
+      "sha256": "9bae9164039c5226ff1fd69591c6b74e45d5f5a06132b65711ac0a86c94edfff"
+    },
+    {
+      "path": "Assets/Scripts/GateLabMain.ts.meta",
+      "sha256": "6eaaefc411ad91b5e739d7758dfc4fcddc11ba0e8c7d8b668f880b8d418306c3"
+    },
+    {
+      "path": "Assets/Scripts/GateLabNodeUI.ts",
+      "sha256": "9da61ce6b039d63e15ad4529cf52a8455c1820633b80570cb7722f4587042ccc"
+    },
+    {
+      "path": "Assets/Scripts/GateLabNodeUI.ts.meta",
+      "sha256": "53f79fc72a7f74a92403ccd888dd3d3eef03bcdf4068ffab5493731c076d04af"
+    },
+    {
+      "path": "Assets/Scripts/GateLabRecoveryScenario.ts",
+      "sha256": "1b8f1684bfd1f9adf6dabd248471f2ab171468d5f537af7ce7285e9fbc3ab287"
+    },
+    {
+      "path": "Assets/Scripts/GateLabRecoveryScenario.ts.meta",
+      "sha256": "7e022e2055e02865224beea8104e467c9932158123cad144ae6b2e788c865b85"
+    },
+    {
+      "path": "Assets/Scripts/GateLabSceneContracts.ts",
+      "sha256": "c738c8d7edae1c673a4876872bd039074b11dea2e61c006233ca688713a07ed9"
+    },
+    {
+      "path": "Assets/Scripts/GateLabSceneContracts.ts.meta",
+      "sha256": "053ef148043d6a628e5b2ed4432215c9abc164ad32601b1f31a93926be690890"
+    },
+    {
+      "path": "Assets/Scripts/GateLabState.ts",
+      "sha256": "da91a1775f14d37a67bb613fa57c726aa282fc3ef1428038d66cb73535ed402e"
+    },
+    {
+      "path": "Assets/Scripts/GateLabState.ts.meta",
+      "sha256": "e5c7a42dc5b14a728fbcfe80be1c1d61129c451c494c04c6a8ab492b932035ab"
+    },
+    {
+      "path": "Assets/Scripts/GateLabTruthTableScenario.ts",
+      "sha256": "2ac3712b362fc399fd983cd3639787b7338a35ea820df307229ab85f56a8f9d9"
+    },
+    {
+      "path": "Assets/Scripts/GateLabTruthTableScenario.ts.meta",
+      "sha256": "b568fc518a7dc053c8cf90a480e5218286a2e9b01e4aba91501516140b8d06ec"
+    },
+    {
+      "path": "Assets/SimpleVertexBaseColor.lspkg/vertexBaseColorMaterial.mat",
+      "sha256": "1160a7357fa5ae5d355326d2ab0051ac60ff71c28a0a3aebd619dbce3cd71c93"
+    },
+    {
+      "path": "Assets/SimpleVertexBaseColor.lspkg/vertexBaseColorMaterial.mat.meta",
+      "sha256": "56f5aa46036cab9781dbccab86e63fc2cbac0a64bb11405516f95b2bfacc75be"
+    },
+    {
+      "path": "Assets/SimpleVertexBaseColor.lspkg/vertexBaseColorShader.graphShader",
+      "sha256": "2721c3bd92b87506047c5ac229f8a4e3d8517a9ce523a0728d33298093e74753"
+    },
+    {
+      "path": "Assets/SimpleVertexBaseColor.lspkg/vertexBaseColorShader.graphShader.meta",
+      "sha256": "8ea1a0652e585cb5625ab348ade1270f50d204a0411994c411810b5c877419a3"
+    },
+    {
+      "path": "Packages/AiPreviewAgentInspect.lspkg",
+      "sha256": "821e634db9a2bfdcd766b94fcd4990f12fa9640e80c0a346609c951d1e9e09ac"
+    },
+    {
+      "path": "Packages/AiPreviewAgentInspect.lspkg.meta",
+      "sha256": "56938e02293f2d6ab20bd99168886ec94ff3f53c0b8c6e69f6d1c4ecdeda9065"
+    },
+    {
+      "path": "Packages/AiPreviewAgentInteract.lspkg",
+      "sha256": "6dff11dc56f5dcabdda2ee4f72877386a683dbb52566305610085e6a82d54d5e"
+    },
+    {
+      "path": "Packages/AiPreviewAgentInteract.lspkg.meta",
+      "sha256": "28470e809ed11e8c6ebc98a83b6a917acdecd578cee1d1d42ad278e25d835d90"
+    },
+    {
+      "path": "Packages/Bitmoji 3D.lsc",
+      "sha256": "28e17c40285d146777468f959755d5c9de37ec794d3f1f1780e19b46d2902420"
+    },
+    {
+      "path": "Packages/Bitmoji 3D.lsc.meta",
+      "sha256": "7e8dbfb8e1888b8a1d3a914d231723764991c616866cab10e22d8bab9c2e5007"
+    },
+    {
+      "path": "Packages/Icons.lspkg",
+      "sha256": "b5afdef165caba7468902304f61952a0b59e989ac2b2659ebe95de47a1ae223f"
+    },
+    {
+      "path": "Packages/Icons.lspkg.meta",
+      "sha256": "ddfb36b1320b70395b002d5ce3e6c9db0bc12ad0b77b775d993a0c0fcc0ae959"
+    },
+    {
+      "path": "Packages/Leaf.lspkg",
+      "sha256": "42bc195d4b50c818f41d91b91483344001d90b385e66551063ddce018f03db0b"
+    },
+    {
+      "path": "Packages/Leaf.lspkg.meta",
+      "sha256": "424a10297352fcf1090e9669e285756f5e8403fa02a334a207122f80effa00ca"
+    },
+    {
+      "path": "Packages/Motion.lspkg",
+      "sha256": "c4d619203d9277c55b8d979f02a75351bad2895ef37242639769cf0927bc494b"
+    },
+    {
+      "path": "Packages/Motion.lspkg.meta",
+      "sha256": "b621b3795d87a2c01d8f4c829366ba53e79bc450cfff8a34328240edebc1b1a2"
+    },
+    {
+      "path": "Packages/SpectaclesInteractionKit.lspkg",
+      "sha256": "295a05dbc27d5cc4e6f96e018947e7e860ee872c085a72d867b62d77dfcb3f57"
+    },
+    {
+      "path": "Packages/SpectaclesInteractionKit.lspkg.meta",
+      "sha256": "e982ce76672f320b48a204d3c51d83252e86d5f53ba90b2f2ad048889388aa19"
+    },
+    {
+      "path": "Packages/SpectaclesUIKit.lspkg",
+      "sha256": "9a1eb387ba0bb7b7a4dc7795871973c51a1c9344bbd85c1f0530548dbccbff63"
+    },
+    {
+      "path": "Packages/SpectaclesUIKit.lspkg.meta",
+      "sha256": "25be08a429038026bd19dec29b8007eddedf43cf7af3e71fbf6e8e9af50dc34f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9d89d20e0718b797a23e1975d27c041191b3c6e84da19c54431a7f1a1a65fd8a"
+    },
+    {
+      "path": "SpecsBaseTemplate.esproj",
+      "sha256": "3d50f846279b99123af5256e17a85b652354324933ee9af761ac21b25814ceb3"
+    },
+    {
+      "path": "TEMPLATE_SOURCE.md",
+      "sha256": "bbb609e051b9f3ad92da92d8c0b1a1dc19587ba92263a589a639d64006388ca5"
+    },
+    {
+      "path": "UPSTREAM_LICENSE.md",
+      "sha256": "18c5e2cd28c553cee12feb7f14e32622bf966832ebe07227c0dbe3c06cdc72a9"
+    },
+    {
+      "path": "devpost/NEXT_SESSION.md",
+      "sha256": "ef1d8f0b98056a4c0c26ef0ba601e2bce8e87005dfc4ce27809b2d493b14a78f"
+    },
+    {
+      "path": "devpost/archive-verification.json",
+      "sha256": "f48788fda92c93ebba379e9463d14b406fa6bd767928520b1bf8d2f25ef205b1"
+    },
+    {
+      "path": "devpost/build-report.md",
+      "sha256": "536f9bda0ae7aabf7c65856c709cf6d6992ded25140158b0b63f47e29fc3060b"
+    },
+    {
+      "path": "devpost/build-verification.json",
+      "sha256": "460f855fba8918e0215572deaf41bcbe3fb627e36f73bdd2de8456db8c4e7102"
+    },
+    {
+      "path": "devpost/demo-script.md",
+      "sha256": "a18a7cc4e349c4676b72f374969094eab37ddd4dc08184086124c0724162d2b1"
+    },
+    {
+      "path": "devpost/design-brief.md",
+      "sha256": "c529ca1e265cbaccc130411bc300fb0007f1f9a50ecfe7ff6787bfe4bef379c4"
+    },
+    {
+      "path": "devpost/native-preview-evidence.json",
+      "sha256": "2cf3a51bd6dd48b4b9ee6f70f41f40e8b11764171232fdd26365732958a69c84"
+    },
+    {
+      "path": "devpost/product-plan.md",
+      "sha256": "919a4ad15e083e67ed78b822e11e3d1ad9a8547b66ea4bf977c4e8cd76fe958d"
+    },
+    {
+      "path": "devpost/requirements.md",
+      "sha256": "b54be3eb916520577fde22a874d1fff84e6f85ffabecba4d44600324c6982a5b"
+    },
+    {
+      "path": "devpost/review-guidance.md",
+      "sha256": "5f31484785d1bc57fa1ee170843dddb6ea3dbf3dd54e212e2a4ed38b833e7ca1"
+    },
+    {
+      "path": "devpost/screenshots/01-initial-preview.png",
+      "sha256": "be112c63d288fd5f7c1ae5e3d17a7da80f1dbd22a089e03f866f2aff6f987303"
+    },
+    {
+      "path": "devpost/screenshots/02-welcome.png",
+      "sha256": "abf0828664471922f36a616336ec69961b4fe5f2396dda2953b84dc08a01d6a2"
+    },
+    {
+      "path": "devpost/screenshots/03-explore-before-fix.png",
+      "sha256": "a475c8b1a4edf471e05d472c45e610eacef2b9192d7a5f5aa006e5a41bf5932d"
+    },
+    {
+      "path": "devpost/screenshots/04-explore.png",
+      "sha256": "557a1a0ed5989cedf33667fed2bde8401c55a9cd86eac62bd82467af57ea1384"
+    },
+    {
+      "path": "devpost/screenshots/05-and-active.png",
+      "sha256": "fbff0b0c8321eb39bd635e9b55b4f211cb3a712f207dd2d9386ac9fe18ce85ee"
+    },
+    {
+      "path": "devpost/screenshots/06-hidden-output.png",
+      "sha256": "74083d25bab53ae1e06d283122101645efe6a38b8e87019df61f506488f524d3"
+    },
+    {
+      "path": "devpost/screenshots/07-feedback.png",
+      "sha256": "0b7fcbec1238bd2ba5e5eafabfc975a33d4fcf2db9b2612690948b1fb0fcd899"
+    },
+    {
+      "path": "devpost/screenshots/08-finish.png",
+      "sha256": "86da7cc476d202a336c869ed68a2c8d9d9c272058606b052eb2438da470e769a"
+    },
+    {
+      "path": "devpost/screenshots/09-replay.png",
+      "sha256": "9741c8cadcaaad78e11e76e13c213a35e74c7f821de25348ce6050846fde6ace"
+    },
+    {
+      "path": "devpost/screenshots/10-reset.png",
+      "sha256": "2bb4db1de54310f028e9868fde2590dc4d64bd2d935d6002c143f87155367500"
+    },
+    {
+      "path": "devpost/screenshots/11-world-anchor-offset.png",
+      "sha256": "b9c60b06c2f20116c85e4b0235470c92b0c500555208ae89e8f512f3d14077da"
+    },
+    {
+      "path": "devpost/screenshots/12-reopened-welcome.png",
+      "sha256": "b3b3e50ab66bfd268e4ce5fa82ecdaa0c139a1297a6adef47d9108820a12db35"
+    },
+    {
+      "path": "devpost/screenshots/13-reopened-pinch.png",
+      "sha256": "fcea9be934066794d86db5408a8ecaee84ca1721cd33f75e3cae1365102b5904"
+    },
+    {
+      "path": "devpost/screenshots/14-reopened-welcome-settled.png",
+      "sha256": "3f99253ad6634fadf7b7362b37aef41fb2de9f97b7272406f8d68c0da7c458b3"
+    },
+    {
+      "path": "devpost/screenshots/15-readable-actions.png",
+      "sha256": "9b3ef6b97f12e41e2acbd4f09c470d4bb8462382f6b8f6d3f751c0a91dd0ba16"
+    },
+    {
+      "path": "devpost/screenshots/16-readable-predictions.png",
+      "sha256": "0ec3615d342b6ec74fec5e4b4ed6d85993bdf7903c5b037a880176e4a19310e0"
+    },
+    {
+      "path": "devpost/screenshots/17-angle-check.png",
+      "sha256": "936cbe3ca1ce3de56ca192c992ef3caf6589fefc1894d32fcf7d6604b450f2bc"
+    },
+    {
+      "path": "devpost/screenshots/18-raised-layout.png",
+      "sha256": "8418c642038dadb6aab4994de0f0dafe624e9aaedfa2def3cc19499fb717a7cd"
+    },
+    {
+      "path": "devpost/screenshots/19-final-welcome.png",
+      "sha256": "6db2bd2c39facf192d86e231d7ddcfab523f2d41d7d6e8f48a90661ae234d1b4"
+    },
+    {
+      "path": "devpost/screenshots/20-final-explore.png",
+      "sha256": "df12b4f4d041e7eeef1e30338867bf0c6cfa7db0ee60945dbba6cabbc64caf14"
+    },
+    {
+      "path": "devpost/screenshots/21-final-challenge.png",
+      "sha256": "d257b0efd3ad90f8d29414acfdbc9c84bdd25464952d5b685262152c81d83ffd"
+    },
+    {
+      "path": "devpost/screenshots/22-final-feedback.png",
+      "sha256": "c8e47e82fa79b2c6110bde40fbfe66a38477731e64a331e8c34ae7a4d7cf0d75"
+    },
+    {
+      "path": "devpost/screenshots/23-final-world-anchor.png",
+      "sha256": "5cdbf050e92a51f0dc381cbda1d5d4118be9fda928717e9d29772bd30d471b10"
+    },
+    {
+      "path": "devpost/screenshots/24-final-welcome.png",
+      "sha256": "9262180d2db00ef830933ea2a6fc355f600e20ff7950b823d70de54dcfe813ab"
+    },
+    {
+      "path": "devpost/screenshots/25-archive-smoke-explore.png",
+      "sha256": "59281a785d73a220ab1b249dc24873c231680f2b587b09762ca05d41cf4ea039"
+    },
+    {
+      "path": "devpost/submission-checklist.md",
+      "sha256": "5ee412508a76a74ccd3179c30b7f9b324e5f607f747d5d23372ebf273174786c"
+    },
+    {
+      "path": "devpost/submission-draft.md",
+      "sha256": "905ad9fcd821cc2ba19c87139d8cdcb475231c2abc7f2f869dc5e670a434b509"
+    },
+    {
+      "path": "devpost/verification.json",
+      "sha256": "94b597ac2f107abdc536cb414296c6adb360639765ff4203a59f3fede6cd7b7a"
+    },
+    {
+      "path": "logic/README.md",
+      "sha256": "28abb3831701af28df611099c371816d51faf73c27ab5ea3c6dafa6417774305"
+    },
+    {
+      "path": "logic/gatelab.mts",
+      "sha256": "58331172a1f15f91f26582ab7dd3af44f2af07aa250ff2648ab049637af1a9cb"
+    },
+    {
+      "path": "scripts/checkpoint.py",
+      "sha256": "711d53c6309c48a6278e6d864f9aa82e2c81684e653ef2243ec8ec4b9cee6e4a"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "sha256": "3ba173bfc670d2db1f103fb6beea608872073db661d726e2e8e7f9864bfc99f1"
+    },
+    {
+      "path": "scripts/test_checkpoint.py",
+      "sha256": "37572d92fba430d9cf2dec751e1493e55c030eb9288696a1728cfe8dff0a4e4f"
+    },
+    {
+      "path": "tests/gatelab.test.mjs",
+      "sha256": "cae08b591442e3cca87f8aa34ce85b40aa6f10417bc8a4c10bcafa1566ac9c25"
+    }
+  ]
+}

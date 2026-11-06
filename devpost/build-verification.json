@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-11-06T21:50:27Z",
+  "project": "SpecsBaseTemplate.esproj",
+  "lens_studio_version": "5.23.2.26081320",
+  "scope": "Existing native Lens project; saved source reopened through the editor. Archive packaging and publishing remain with the parent.",
+  "native_compilation_passed": true,
+  "preview_journey_passed": true,
+  "clean_reopen_passed": true,
+  "ready_for_parent_packaging": true,
+  "packaged_archive_reopen_passed": false,
+  "real_device_validation_passed": false,
+  "published": false,
+  "anchor_cm": [
+    0,
+    -10,
+    -110
+  ],
+  "typography_scale": 1.3,
+  "leaf_results": [
+    {
+      "id": "gatelab-truth-table",
+      "status": "succeeded",
+      "passed": true,
+      "target": "Lens Studio Preview",
+      "evidence": [
+        "I 03:17:44.589 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] AND 00 -> 0",
+        "I 03:17:45.701 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] AND 10 -> 0",
+        "I 03:17:46.803 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] AND 11 -> 1",
+        "I 03:17:47.908 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] AND 01 -> 0",
+        "I 03:17:50.104 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] OR 00 -> 0",
+        "I 03:17:51.243 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] OR 10 -> 1",
+        "I 03:17:52.323 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] OR 11 -> 1",
+        "I 03:17:53.437 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] OR 01 -> 1",
+        "I 03:17:55.636 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] XOR 00 -> 0",
+        "I 03:17:56.754 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] XOR 10 -> 1",
+        "I 03:17:57.871 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] XOR 11 -> 0",
+        "I 03:17:58.966 [Preview 3] [Assets/Scripts/GateLabTruthTableScenario.ts:18] [GateLab LEAF truth] XOR 01 -> 1",
+        "I 03:18:00.344 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 18.671s]PASSED: gatelab-truth-table"
+      ],
+      "known_diagnostics": []
+    },
+    {
+      "id": "gatelab-challenge",
+      "status": "succeeded",
+      "passed": true,
+      "target": "Lens Studio Preview",
+      "evidence": [
+        "I 03:18:22.101 [Preview 3] [Assets/Scripts/GateLabChallengeScenario.ts:21] [GateLab LEAF challenge] 3 hidden answers; 3 single-score feedback steps; final 3/3",
+        "I 03:18:22.101 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 11.901s]PASSED: gatelab-challenge"
+      ],
+      "known_diagnostics": []
+    },
+    {
+      "id": "gatelab-recovery",
+      "status": "succeeded",
+      "passed": true,
+      "target": "Lens Studio Preview",
+      "evidence": [
+        "I 03:18:58.047 [Preview 3] [Assets/Scripts/GateLabRecoveryScenario.ts:12] [GateLab LEAF recovery] wrong answers 0/3; replay fresh; reset welcome; Explore AND 00; single handler",
+        "I 03:18:58.047 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 26.418s]PASSED: gatelab-recovery"
+      ],
+      "known_diagnostics": []
+    },
+    {
+      "id": "gatelab-ik-reach",
+      "status": "succeeded",
+      "passed": true,
+      "target": "Lens Studio Preview",
+      "evidence": [
+        "I 03:19:12.712 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.001s]Running with runner config: {\"__leaf__log_level\":\"INFO\",\"__leaf__timeout_secs\":\"60\",\"__leaf__diagnostic_policy\":\"fail-fast\",\"__leaf__diagnostic_report_duration_ms\":\"-1\"}",
+        "I 03:19:14.453 [Preview 3] [Assets/Scripts/GateLabIKScenario.ts:9] [GateLab LEAF IK] Start indirect=true; world UI is at 110cm; this does not prove device hand tracking",
+        "I 03:19:22.723 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 10.012s]PASSED: gatelab-ik-reach"
+      ],
+      "known_diagnostics": [
+        "W 03:19:20.171 getAssetCofData RPC failed with error code: 4, Deadline Exceeded",
+        "E 03:19:20.178 Download failed for asset with id = CC_CHARACTER_CONTROLLER_ANIMATION_IDLE. Error:Cannot fetch config data"
+      ]
+    }
+  ],
+  "native_compilation_evidence": {
+    "logFile": "<HOME>/Library/Preferences/Snap/Lens Studio/logs/LensStudioLog-2026-11-07-02-13-05-684-41986.txt",
+    "status": "succeeded"
+  },
+  "clean_reopen_evidence": {
+    "method": "Saved source; switched to Empty 3/Project.esproj; opened SpecsBaseTemplate.esproj; native compilation succeeded; Preview 3 ready; genuine Start/InputA pinches succeeded; all four LEAF scenarios rerun and passed.",
+    "startup_prints": [
+      "I 03:16:54.350 [Preview 3] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+      "I 03:16:55.882 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.279s]Register scenario: gatelab-truth-table",
+      "I 03:16:55.884 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.281s]Register scenario: gatelab-challenge",
+      "I 03:16:55.884 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.281s]Register scenario: gatelab-recovery",
+      "I 03:16:55.884 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.281s]Register scenario: gatelab-ik-reach",
+      "I 03:16:57.917 [Preview 3] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+      "I 03:16:59.011 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.184s]Register scenario: gatelab-truth-table",
+      "I 03:16:59.011 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.184s]Register scenario: gatelab-challenge",
+      "I 03:16:59.011 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.184s]Register scenario: gatelab-recovery",
+      "I 03:16:59.011 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.184s]Register scenario: gatelab-ik-reach",
+      "I 03:17:00.195 [Preview 3] [Assets/Scripts/GateLabMain.ts:36] [GateLab] Ready: interactive"
+    ],
+    "latest_startup_errors": [],
+    "latest_startup_prints": [
+      "I 03:19:48.925 [Preview 3] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+      "I 03:19:49.849 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.206s]Register scenario: gatelab-truth-table",
+      "I 03:19:49.849 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.206s]Register scenario: gatelab-challenge",
+      "I 03:19:49.850 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.207s]Register scenario: gatelab-recovery",
+      "I 03:19:49.850 [Preview 3] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.207s]Register scenario: gatelab-ik-reach",
+      "I 03:19:50.500 [Preview 3] [Assets/Scripts/GateLabMain.ts:36] [GateLab] Ready: interactive"
+    ]
+  },
+  "world_anchor_evidence": {
+    "camera_translation_cm": {
+      "x": -12,
+      "y": 0,
+      "z": 0
+    },
+    "before": {
+      "x": 0,
+      "y": -10,
+      "z": -110
+    },
+    "after": {
+      "x": 0,
+      "y": -10,
+      "z": -110
+    },
+    "passed": true
+  },
+  "truth_table_cases": [
+    {
+      "gate": "AND",
+      "a": 0,
+      "b": 0,
+      "y": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "gate": "AND",
+      "a": 1,
+      "b": 0,
+      "y": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "gate": "AND",
+      "a": 1,
+      "b": 1,
+      "y": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "gate": "AND",
+      "a": 0,
+      "b": 1,
+      "y": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "gate": "OR",
+      "a": 0,
+      "b": 0,
+      "y": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "gate": "OR",
+      "a": 1,
+      "b": 0,
+      "y": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "gate": "OR",
+      "a": 1,
+      "b": 1,
+      "y": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "gate": "OR",
+      "a": 0,
+      "b": 1,
+      "y": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "gate": "XOR",
+      "a": 0,
+      "b": 0,
+      "y": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "gate": "XOR",
+      "a": 1,
+      "b": 0,
+      "y": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "gate": "XOR",
+      "a": 1,
+      "b": 1,
+      "y": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "gate": "XOR",
+      "a": 0,
+      "b": 1,
+      "y": 1,
+      "expected": 1,
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "devpost/screenshots/20-final-explore.png",
+    "devpost/screenshots/21-final-challenge.png",
+    "devpost/screenshots/22-final-feedback.png",
+    "devpost/screenshots/23-final-world-anchor.png",
+    "devpost/screenshots/24-final-welcome.png"
+  ],
+  "known_limitations": [
+    "No SPECS hardware was available. Real hand tracking, additive-display readability and comfort over time remain unverified.",
+    "IK Start passed with fail-fast diagnostics using indirect targeting at 110 cm; direct-touch reach was not proven.",
+    "The optional LEAF Bitmoji idle-animation download timed out (CC_CHARACTER_CONTROLLER_ANIMATION_IDLE). The IK interaction passed; normal GateLab startup and the other final scenarios had no errors.",
+    "Clean reopen covers the saved native project with installed packages. A packaged archive/clean-copy reopen, source packaging, release signing and publication were outside this task."
+  ],
+  "source_files": [
+    {
+      "path": "Assets/Scripts/GateLabAudioController.ts",
+      "sha256": "552dc62338bb407e58d14fa26f2d7f7bc1c1ee4773b3c0e6bafe7625ea24e626",
+      "bytes": 1094
+    },
+    {
+      "path": "Assets/Scripts/GateLabChallengeScenario.ts",
+      "sha256": "78c46ebe9ad8e096f5d925399e7d0b7e4509d63294e9169e0801391b2ca6f9b1",
+      "bytes": 1803
+    },
+    {
+      "path": "Assets/Scripts/GateLabCircuitMesh.ts",
+      "sha256": "196d2e87c64623b60efa5e04d5e14838dfa710ee0159b1c4e482cc684180abe8",
+      "bytes": 5617
+    },
+    {
+      "path": "Assets/Scripts/GateLabHeaderUI.ts",
+      "sha256": "07b948778c2633e65dfc8a2bd88354e97d465d8317d8437f5b2e8f85100d9f18",
+      "bytes": 4510
+    },
+    {
+      "path": "Assets/Scripts/GateLabIKScenario.ts",
+      "sha256": "bbcebc6d7f6ed5db83a9baaf22959ca648ac2fa2c926adf0638d44a7af6c5760",
+      "bytes": 801
+    },
+    {
+      "path": "Assets/Scripts/GateLabJourneyUI.ts",
+      "sha256": "3d6c63ef5459e9a03b05d099cedfa5e5b9fc3ba90273dd060dbad28c13b42303",
+      "bytes": 6962
+    },
+    {
+      "path": "Assets/Scripts/GateLabLeafIndex.ts",
+      "sha256": "191dd509baa1a0f7c52a1abf93c4fa5afbbb2ccd078d1d16593f55720a7d7bbd",
+      "bytes": 1089
+    },
+    {
+      "path": "Assets/Scripts/GateLabLeafSupport.ts",
+      "sha256": "41da2af5a3082aa3166bec188e45c3694b162775ae6802dc2f7209b2e6a992cc",
+      "bytes": 1914
+    },
+    {
+      "path": "Assets/Scripts/GateLabMain.ts",
+      "sha256": "9bae9164039c5226ff1fd69591c6b74e45d5f5a06132b65711ac0a86c94edfff",
+      "bytes": 5887
+    },
+    {
+      "path": "Assets/Scripts/GateLabNodeUI.ts",
+      "sha256": "9da61ce6b039d63e15ad4529cf52a8455c1820633b80570cb7722f4587042ccc",
+      "bytes": 5836
+    },
+    {
+      "path": "Assets/Scripts/GateLabRecoveryScenario.ts",
+      "sha256": "1b8f1684bfd1f9adf6dabd248471f2ab171468d5f537af7ce7285e9fbc3ab287",
+      "bytes": 1422
+    },
+    {
+      "path": "Assets/Scripts/GateLabSceneContracts.ts",
+      "sha256": "c738c8d7edae1c673a4876872bd039074b11dea2e61c006233ca688713a07ed9",
+      "bytes": 976
+    },
+    {
+      "path": "Assets/Scripts/GateLabState.ts",
+      "sha256": "da91a1775f14d37a67bb613fa57c726aa282fc3ef1428038d66cb73535ed402e",
+      "bytes": 6815
+    },
+    {
+      "path": "Assets/Scripts/GateLabTruthTableScenario.ts",
+      "sha256": "2ac3712b362fc399fd983cd3639787b7338a35ea820df307229ab85f56a8f9d9",
+      "bytes": 1901
+    }
+  ]
+}
